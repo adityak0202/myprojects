@@ -1,0 +1,243 @@
+body {
+   background-color: black; 
+}
+
+.red {
+    color: red;
+}
+
+* {
+    margin: 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+hr {
+    height: 8px;
+    background-color: grey;
+    margin-right: 0px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* The header of the webpage */
+header {
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+/* Main netflix logo on the top of the webpage */
+#ntflx-main {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 0px;
+}
+
+/* The elements besides the netflix logo on top */
+.header-sides {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* The image for the Top card of the website */
+#main-img {
+    opacity: 0.45;
+    display: block;
+    width: 100vw;
+    height: 750px;
+    margin: 0px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+/* The email textbox on the top card */
+#main-email {
+    text-align: center;
+    margin-top: 0px;
+    width: 100vw;
+    opacity: 1;
+    display: block;
+    height: 750px;
+    box-sizing: border-box;
+}
+
+/* Unlimited TV shows and more */
+#unlimited {
+    text-align: center;
+    font-size: 4rem;
+    opacity: 1;
+    box-sizing: border-box;
+}
+
+/* The textbox for receiving customer's email */
+.email-textbox {
+    color: black;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 20px;
+}
+
+/* The submit button beside the email textbox */
+#email-submit-1 {
+    color: white;
+    width: 10%;
+    height: 50px;
+    background-color: red;
+    border-color: red;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+/* All the content that has to be displayed above the image */
+#main-content {
+    position: relative;
+    margin-top: -450px;
+    z-index: 2;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* END OF 1ST CARD */
+.follow-card {
+    height: 400px;
+}
+.img-right {
+    height: 350px;
+    margin-left: 60%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -400px;
+    vertical-align: middle;
+}
+
+.text-left {
+    color: white;
+    width: 50%;
+    margin-right: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    height: 380px;
+    padding-top: 7%;
+    padding-left: 5%;
+}
+
+.big-text {
+    font-size: 3rem;
+    color: white;
+}
+
+.small-text {
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* END OF 2ND CARD */
+
+/* The buttons for the FAQ with the questions */
+.faq-buttons {
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    height: 70px;
+    width: 100%;
+    margin-top: 10px;
+    /* border-radius: 4px; */
+    background-color: rgba(118, 111, 111, 0.562);
+    font-size: 1.5rem;
+    padding-left: 15px;
+    font-weight: 100;
+}
+
+/* The entire div for all the FAQs */
+#q-a {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Answers for the FAQs which are displayed after clicking */
+.faq-ans {
+    background-color: rgba(118, 111, 111, 0.562);
+    transition-duration: 1s;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#sub-footer {
+    height: auto;
+    width: 50;
+    margin: 0, auto;
+}
+
+#faq {
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    height: 100px;
+}
+/* The email entry at the bottom of the page. */
+#email-textbox-2 {
+    color: black;
+    width: 74%;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* The submit button at the bottom of the page */
+.email-submit-end {
+    color: white;
+    width: 25%;
+    height: 50px;
+    background-color: red;
+    border-color: red;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+/* Ready to watch?-> H1 */
+#ready {
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* The div for the bottom email signup */
+#bottom-email {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+#test {
+    height: 100px;
+    width: 100vw;
+}
+

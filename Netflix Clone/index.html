@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- ----------------------------------------------------------------------- -->
+    <header>
+        <span class="header-sides">Language</span>
+        <span id="ntflx-main">NETFLIX</span>
+        <span class="header-sides">Subscribe</span>
+    </header>
+<!-- ----------------------------------------------------------------------- -->
+        <div id="main-email">
+            <img src="./1stimg.jpg" id="main-img">
+            <div id="main-content">
+                <h1 id="unlimited">Unlimited movies, TV <br>shows and more.</h1> 
+                <h2>Watch <span class="red">anywhere</span>. Cancel <span class="red">anytime
+                    </span>.
+                </h2> 
+                <br><br>
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                
+                    <input type="textbox" name="email"  value="Email Address" class="email-textbox" id="email-textbox-1">
+                    <input type="submit" value="GET STARTED" id="email-submit-1" id="email-submit-1">
+                 
+            </div>
+        </div>
+        <!-- ----------------------------------------------------------------------- -->
+        <hr>
+        <div class="follow-card">
+            <div class="text-left">
+                <span>
+                    <span class="big-text">
+                        Enjoy on your TV.<br>
+                    </span>
+                    <span class="small-text">
+                        Watch on smart TVs, PlayStation, Xbox,
+                        <br>
+                        Chromecast, Apple TV, Blu-ray players and
+                        <br>
+                        more.
+                    </span>
+                    
+                </span>
+            </div>
+            <img src="./2ndimage.png" class="img-right">
+        </div>
+        <hr>
+        <div class="follow-card">
+            <div class="text-left">
+                <span>
+                    <span class="big-text">
+                        Download your shows to watch offline.<br>
+                    </span>
+                    <span class="small-text">
+                        Save your favourites easily and always have something to watch.
+                    </span>
+                    
+                </span>
+            </div>
+            <img src="./3rdimg.jpg" class="img-right">
+        </div>
+        <hr>
+
+        <div class="follow-card">
+            <div class="text-left">
+                <span>
+                    <span class="big-text">
+                        Watch everywhere.<br>
+                    </span>
+                    <span class="small-text">
+                        Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                    </span>
+                </span>
+            </div>
+            <img src="./4thimg.png" class="img-right">
+        </div>
+        <hr>
+
+        <div class="follow-card">
+            <div class="text-left">
+                <span>
+                    <span class="big-text">
+                        Create profiles for children.<br>
+                    </span>
+                    <span class="small-text">
+                        Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+                    </span>
+                </span>
+            </div>
+            <img src="./5thimg.png" class="img-right">
+        </div>
+        <hr>
+        <div id="sub-footer">
+            <p id="faq">Frequently Asked Questions</p> 
+            <div id="q-a">
+                <div class="faq-question">
+                    <button class="faq-buttons" onclick="displayAnswer('button1')">What is Netflix?</button>
+                </div>
+                <p class="faq-ans" id="button1"></p>  
+    <!-- ------------------------------------------------------------ -->
+                <div class="faq-question">
+                    <button class="faq-buttons" onclick="displayAnswer('button2')">How much does Netflix cost?</button>
+                </div>
+                <p class="faq-ans" id="button2"></p> 
+    <!-- ------------------------------------------------------------ -->
+                <div class="faq-question">
+                    <button class="faq-buttons" onclick="displayAnswer('button3')">Where can I watch?</button>
+                </div>
+                <p class="faq-ans" id="button3"></p>  
+    <!-- ------------------------------------------------------------ -->
+                <div class="faq-question">
+                    <button class="faq-buttons" onclick="displayAnswer('button4')">How do I cancel?</button>
+                </div>
+                <p class="faq-ans" id="button4"></p>
+    <!-- ------------------------------------------------------------ -->
+                <div class="faq-question">
+                    <button class="faq-buttons" onclick="displayAnswer('button5')">What can I watch on Netflix?</button>
+                </div>
+                <p class="faq-ans" id="button5"></p>
+    <!-- ------------------------------------------------------------ -->
+                <div class="faq-question">
+                    <button class="faq-buttons" onclick="displayAnswer('button6')">Is netflix good for kids?</button>
+                </div>
+                <p class="faq-ans" id="button6"></p>   
+    <!-- ------------------------------------------------------------ -->
+            </div>
+            
+        </div>
+        <hr style="margin-top: 90px;">
+        <h1 id="ready">Ready to watch?<br> Enter your email to create or restart your membership.</h1>
+
+        
+            <div id="bottom-email">
+                <input type="textbox" name="email"  value="Email Address" id="email-textbox-2">
+                <input type="submit" value="GET STARTED" class="email-submit-end" id="email-submit-2">
+            </div>
+        
+        
+    <footer>
+        <hr style="height: 2px;">
+        <div>
+            <p style="text-align: center; font-size:larger; margin-top: 15px; margin-bottom: 15px;">&copy; All rights reserved. <br> Netflix.com</p>
+            
+        </div>
+        
+    </footer>
+    <hr>
+    <a href="./emails.html" target="_blank">View emails</a>
+    <script src="./index.js"></script>
+
+</body>
+</html>

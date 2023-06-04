@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  #noise-level {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+  }
